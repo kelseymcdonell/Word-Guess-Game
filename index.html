@@ -5,19 +5,49 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
+
 </head>
 
 <body>
-
-    <script src="assets/javascript/game.js"></script>
-
+   
 <div class="container">
-  <h1>Word Guess Game</h1>
-  <p>This is some text.</p> 
+
+  <header>
+
+    <h1 class="display-3">Word Guessing Game</h1> 
+    <h4>Press any key to get started!</h4>  
+
+ </header>
+
+ <div class="row">
+    <div id="stats" class="col">
+  
+
+            <p>Wins: <span id="wins"></span></p>
+          
+            <p>Number of Guesses Left: <span id="numberOfGuessesLeft" ></span></p>
+          
+            <p>Your Guesses: <span id="yourGuesses" ></span></p>
+            
+            <p id="winOrLose"></p>
+
+    </div>
+    <div id="blankStuff" class="col">
+        <p> <br> <span id="wordToGuess" ></span></p>
+    </div>
+    <div id="word" class="col">
+
+        <img src="assets/images/question-mark.png" alt="" height="80px">
+
+      </div>
+
+  </div>
+
 </div>
 
+<script src="assets/javascript/game.js"></script>
 </body>
+
 </html>

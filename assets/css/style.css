@@ -1,0 +1,52 @@
+
+.container{
+    background-color: #8EAEBD;
+    padding: 20px;
+    margin-top: 20px;
+}
+header{
+    background-color: #CF6766;
+    font-family: 'Song Myung', serif;    
+    padding: 20px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 40px;
+}
+
+body {
+    background-image: url(../images/tic-tac-toe.png);
+    font-family: 'Song Myung', serif;    
+}
+
+#blankStuff{
+    background-color: #031424;
+    color: whitesmoke;
+    padding: 20px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#word{
+    background-color: #30425D;
+    color: whitesmoke; 
+    padding: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+}
+#stats{
+    background-color: #30425D;
+    color: whitesmoke; 
+    padding: 20px;
+}
+
+.col{
+    margin: 20px;
+}
+
+
+footer{
+    background-color: #CF6766;
+    font-family: 'Song Myung', serif;
+    color: whitesmoke;
+}
